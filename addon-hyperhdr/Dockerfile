@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY run.sh /
 RUN chmod a+x /run.sh
 
-RUN wget -q "${DOWNLOAD_URL}/${BUILD_VERSION}/Hyperion-${BUILD_VERSION}-Linux-$(uname -m).tar.gz" -O - | tar -xvz -C /usr
+RUN wget -q "${DOWNLOAD_URL}/${BUILD_VERSION}/HyperHDR-${BUILD_VERSION}-Linux-$(uname -m).tar.gz" -O - | tar -xvz -C /usr
 
 VOLUME /config
 EXPOSE 8090 8092 19333 19400 19444 19445

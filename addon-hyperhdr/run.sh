@@ -1,4 +1,4 @@
 #!/usr/bin/with-contenv bashio
 
-mkdir -p /config/hyperion
-/usr/bin/hyperiond -v -u /config/hyperion
+mkdir -p /config/hyperhdr
+/usr/bin/hyperhdr -v -u /config/hyperhdr

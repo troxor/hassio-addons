@@ -1,8 +1,10 @@
 # Home Assistant Addons
 
-## addon-hyperion-ng
-  - Hyperion is an opensource Bias or Ambient Lighting implementation
-
+## addon-hyperhdr
+  - HyperHDR is an open source and light weight Ambient Lighting Implementation.
+  
+  Project homesite: https://github.com/awawa-dev/HyperHDR
+  
 ***
 
 ## Installation instructions:

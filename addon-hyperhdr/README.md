@@ -1,3 +1,3 @@
-# Hyperion.NG Home Assistant Add-On
+# HyperHDR Home Assistant Add-On
 
-[![Hyperion logo](https://raw.githubusercontent.com/bradsjm/hassio-addons/master/addon-hyperion-ng/logo.png)](https://hyperion-project.org/)
+[![HyperHDR logo](https://raw.githubusercontent.com/ihrapsa/hassio-addons/master/addon-hyperhdr/logo.png)](https://www.hyperhdr.eu/)

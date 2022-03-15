@@ -1,4 +1,4 @@
-name: 'Addon-Hyperion-NG'
+name: 'Addon-HyperHDR'
 
 # Controls when the action will run
 on: [ workflow_dispatch ]
@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v1
 
       # Sync version to source
-      - run: ./.github/scripts/update-hyperion-version.sh
+      - run: ./.github/scripts/update-hyperhdr-version.sh
 
       - shell: bash
         env:
@@ -31,7 +31,7 @@ jobs:
       - uses: test-room-7/action-update-file@v1
         if: ${{ env.VERSION != env.RELEASE }}
         with:
-          file-path: addon-hyperion-ng/config.json
+          file-path: addon-hyperhdr/config.json
           commit-msg: Update version
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
