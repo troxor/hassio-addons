@@ -29,7 +29,7 @@
   "map": [
     "config:rw"
   ],
-  "image": "nocturno/hyper-hdr:latest",
+  "image": "nocturno/hyper-hdr",
   "options": {},
   "schema": {},
   "privileged": [
