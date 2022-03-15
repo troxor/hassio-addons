@@ -5,8 +5,6 @@
   "description": "HyperHDR is an open source ambient lighting implementation for television sets based on the video and audio streams analysis, using performance improvements especially for USB grabbers. This add-on is not supported or endorsed by the HyperHDR project and may not work with hardware capture cards or LED devices due to limitations of containers",
   "url": "htpps://www.hyperhdr.eu/",
   "arch": [
-    "amd64",
-    "armhf",
     "aarch64"
   ],
   "startup": "application",
@@ -31,7 +29,7 @@
   "map": [
     "config:rw"
   ],
-  "image": "ihrapsa/hyperhdr-addon-{arch}",
+  "image": "nocturno/hyper-hdr:latest",
   "options": {},
   "schema": {},
   "privileged": [
