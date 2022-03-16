@@ -10,6 +10,9 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install --no-ins
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+COPY run.sh /
+RUN chmod a+x /run.sh
+
 RUN wget https://github.com/awawa-dev/HyperHDR/releases/download/v17.0.0.0/HyperHDR-17.0.0.0-Linux-aarch64.deb
 RUN apt-get install -y ./HyperHDR-17.0.0.0-Linux-aarch64.deb
 
