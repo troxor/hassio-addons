@@ -8,7 +8,7 @@ CURRENT="$(jq -r ".version" $FILE)"
 echo "VERSION=${CURRENT}" >> $GITHUB_ENV
 
 REPO_API="https://api.github.com/repos/awawa-dev/HyperHDR/releases/latest"
-RELEASE="$(curl --silent ${REPO_API} | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')"
+RELEASE="$(curl --silent ${REPO_API} | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')" | sed 's/v//' # extract latest release version
 
 # REPO="https://github.com/awawa-dev/HyperHDR.git"
 # RELEASE="$(git ls-remote --sort='v:refname' --tags ${REPO} | cut -d/ -f3- | tail -n1)"
