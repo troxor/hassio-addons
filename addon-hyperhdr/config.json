@@ -2,7 +2,7 @@
   "name": "HyperHDR",
   "version": "17.0.0.0",
   "slug": "hyperhdr",
-  "description": "HyperHDR is an open source ambient lighting implementation for television sets based on the video and audio streams analysis, using performance improvements especially for USB grabbers. This add-on is not supported or endorsed by the HyperHDR project and may not work with hardware capture cards or LED devices due to limitations of containers",
+  "description": "HyperHDR is an open source ambient lighting implementation for television sets based on the video and audio streams analysis. Includes real-time HDR tone mapping and multi-threading for better performance especially for USB grabbers.",
   "url": "htpps://www.hyperhdr.eu/",
   "arch": [
     "amd64",
